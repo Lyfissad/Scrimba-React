@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    background-color: #23252C;
+}
+
+body{
+    height: 800px;
+    background-color: #23252C;    
+}
+
+
+
+
+
+
+
+.card{
+    width : 250px;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+       
+}
+
+.proPic{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; 
+    width: 250px;
+    position: relative;
+    right: 3px
+}
+
+
+
+
+.info{
+    height: 500px;
+    background-color: #1A1B21;
+    position: relative;
+    bottom: 26px
+}
+
+
+
+
+.name{
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 22px;
+    font-family: inter;
+    background-color: #1A1B21;
+    padding-top: 15px;
+}
+
+.occu{
+    text-align: center;
+    color: #F3BF99;
+    font-family: inter;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1px;
+}
+
+.email{
+    text-align: center;
+    color: #F5F5F5;
+    font-family: inter;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    background-color: #1A1B21;
+    cursor: pointer;
+}
+
+.linked{
+    width: 100px;
+    height: 30px;
+    background-color: #5093E2;
+    color: #FFFFFF;
+    font-size: 12px;
+    margin-right: auto;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.emailbtn{
+    width: 100px;
+    height: 30px;
+    color: #000000;
+    background-color: #FFFFFF;
+    font-size: 12px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    background-color: #1A1B21;
+    padding-top: 15px;
+}
+
+
+
+.text{
+    background-color: #1A1B21;
+}
+
+h4{
+    color: #F5F5F5;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    background-color: #1A1B21;
+    margin-left: 30px
+}
+
+
+
+p{
+    background-color: #1A1B21;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #DCDCDC;
+    margin-left: 30px;
+    margin-right: 30px
+}
+
+.botlinks{
+    height: 52px;
+    background-color: #161619;
+    height: 70px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    margin-top: 30px;
+}
+
+
+.fa-brands{
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 25px;
+    color: #918E9B;
+    padding: 5px;
+    margin-right: auto;
+    margin-top: 17px;
+    margin-left: auto;
+    margin-bottom: auto;
+}
+
+.fa-brands:hover{
+    opacity: 0.8;
+    border-style: solid;
+    font-size: 30px;
+}
