@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    background-color: darkorchid;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.heads{
+    color: #EEEEEE;
+}
+
+#score-container{
+    height: 120px;
+    display: flex;
+    
+}
+
+#homeScoreBox{
+    height: 120px;
+    width: 155px; 
+    background-color: #080001;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+#guestScoreBox{
+    height: 120px;
+    width: 155px; 
+    background-color: #080001;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+
+#homeScore{
+    color: #F94F6D;
+    font-weight: 10000;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Orbitron"  
+}
+
+#guestScore{
+    color: #F94F6D;
+    font-weight: 10000;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Orbitron"
+}
+
+#buttons{
+    display: flex;
+    margin-top: 50px;
+    height: 45px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#home-btn{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#guest-btn{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.but-sty{
+    background-color : darkorchid;
+    font-family: "Orbitron";
+    color: gold;
+    border-radius: 10px;
+    cursor: pointer; 
+}
+
+#clear-btn{
+    background-color : darkorchid;
+    font-family: "Orbitron";
+    color: gold;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 40px;
+    margin-left: 25%;
+    width: 50%;  
+}
